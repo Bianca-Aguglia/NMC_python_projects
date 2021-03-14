@@ -7,10 +7,8 @@ import random
 import pickle
 
 def main():
-    print('Welcome to Hangman!')
+    print('\n\nWelcome to H A N G M A N!')
     print('-------------------')
-#     played_words = []
-    word_list = load_word_list()
     play_game()
     
 def load_word_list():
