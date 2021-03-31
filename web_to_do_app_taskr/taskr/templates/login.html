@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Welcome to Taskr.</h1>
+<h3>Please login to access your tasks.</h3>
+
+<form action='/' method='post'>
+    <div class='input-group'>
+        <label for='username'>Username: </label>
+        <input type='text' name='username' id='username' value='{{ request.form.username }}'>
+    </div>
+    <div class='input-group'>
+        <label for='password'>Password: </label>
+        <input type='password' name='password' id='password' value='{{ request.form.username }}'>
+    </div>
+    <div>
+        <button type='submit'>Login</button>
+    </div>
+</form>
