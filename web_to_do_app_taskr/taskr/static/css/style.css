@@ -1,0 +1,30 @@
+:root {
+    --primary-blue: #5c6e91;
+    /* --primary-gray: #eeeded; */
+    --primary-gray: #f9f9f9;
+    --light-gray: #a0a0a0;
+    --primary-red: #8f384d;
+    --primary-orange: #DD9866;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-gray);
+}
+
+.container {
+    width: 90vw;
+    margin: auto;
+    /* background: var(--primary-orange); */
+}
+
+h1 {
+    color: var(--primary-blue);
+    border-bottom: 2px solid var(--light-gray);
+
+}
