@@ -2,3 +2,5 @@
 __pycache__/
 **/*internal*
 **/*config*
+**/*ipynb_checkpoints*
+**/*scratchpad*
